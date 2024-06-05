@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    background-color: #F6F5F2;
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 0 10px 50px #858585;
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%;
+    row-gap: 20px;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* box-shadow: 5px 5px 20px #858585; */
+}
+
+.avatar {
+    display: flex;
+    justify-content: end;
+}
+
+.name {
+    padding-left: 30px;
+    border-left: 2px solid #858585;
+}
+
+.name h1 {
+    font-weight: 300;
+    font-size: 40px;
+    margin: 0 0 5px;
+}
+
+.name .specialize {
+    margin: 5px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.name .contact ul{
+    list-style: none;
+}
+
+.name .contact span {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: small;
+    margin-right: 20px;
+}
+
+.name .contact li {
+    padding: 5px 0;
+    transform: translate(-82px);
+    background-color: #F6F5F2;
+}
+
+.infor ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    line-height: 1.6;
+}
+
+.intro {
+    padding-left: 30px;
+    border-left: 2px solid #858585;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+
+/* Common */
+h2 {
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+/* ===================== */
+
+.exp {
+    text-align: right;
+}
+
+.exp h4 {
+    margin: 20px 0 10px;
+}
+
+.exp .place-work {
+    margin: 10px 0 10px;
+}
+
+/* .exp .des {
+    text-align: justify;
+    line-height: 1.4;
+} */
+
+.exp .skills {
+    margin-top: 50px;
+}
+
+.exp .skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.project {
+    padding-left: 30px;
+    border-left: 2px solid #858585;
+}
+
+.project h4 {
+    margin: 2px 0 10px;
+}
+
+.project .link a {
+    color: green;
+    text-decoration: none;
+}
+
+.project .item {
+    padding: 10px 0;
+}
+
+.project .location {
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.project .item {
+    position: relative;
+}
+
+.project .item::before {
+    position: absolute;
+    content: ' ';
+    width: 13px;
+    height: 13px;
+    background-color: #333;
+    border-radius: 50%;
+    left: -37px;
+}
